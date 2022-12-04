@@ -1,25 +1,52 @@
+img{
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+}
 form div{
     text-align: center;
 }
 #text{
-    padding-top: 180px;
+    margin-top: 20px;
 }
-#submit{
-    padding-top: 30px;
+i {
+    padding: -10px;
 }
 div input[type="text"]{
     width: 550px;
     height: 40px;
     border-radius: 30px;
     border: 1px solid lightgray;
+    padding-left: 40px;
+    background: url("search.png") no-repeat left;
+    background-size: 16px;
+    background-position: 13px 10px;
 }
-div input[type="submit"]{
-    width: 130px;
-    height: 40px;
+div input[type="text"]:focus{
+    outline: none;
+}
+div input[value="Google Search"]{
+    width: 120px;
+    height: 35px;
     background-color: rgb(248, 248, 248);
     border: 0px;
     font-family:'Roboto';font-style:normal;font-weight:400;
     color: rgb(68, 68, 68);
+}
+div input[value="I’m Feeling Lucky"]{
+    width: 140px;
+    height: 35px;
+    background-color: rgb(248, 248, 248);
+    border: 0px;
+    font-family:'Roboto';font-style:normal;font-weight:400;
+    color: rgb(68, 68, 68);
+}
+.left{
+    display: inline-block;
+    margin: 30px 10px auto 635px;
+}
+.right{
+    display: inline-block;
 }
 
 
