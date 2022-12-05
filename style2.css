@@ -7,3 +7,18 @@
 #link a{
     color: black;
 }
+form{
+    margin-left: 20px;
+}
+form div{
+    margin-top: 20px;
+}
+input[type=submit]{
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(45, 132, 255);
+    border: 0px;
+    font-family:'Roboto';font-style:normal;font-weight:400;
+    color: rgb(255, 255, 255);
+}

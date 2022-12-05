@@ -27,9 +27,6 @@ form div{
 #text{
     margin-top: 20px;
 }
-i {
-    padding: -10px;
-}
 div input[type="text"]{
     width: 550px;
     height: 40px;
