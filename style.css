@@ -1,6 +1,6 @@
 #main{
     display: flex;  
-    justify-content: right;
+    justify-content: flex-end;
 }
 #link1{
     margin-right: 20px;
