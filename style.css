@@ -59,12 +59,17 @@ div input[value="I’m Feeling Lucky"]{
     font-family:'Roboto';font-style:normal;font-weight:400;
     color: rgb(68, 68, 68);
 }
-.left{
-    display: inline-block;
-    margin: 30px 10px auto 635px;
+#button{
+    display: flex;
+    justify-content: center;
 }
-.right{
-    display: inline-block;
+#search_button{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#lucky_button{
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 
