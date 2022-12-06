@@ -7,14 +7,13 @@
 #link a{
     color: black;
 }
-#main{
-    display: flex;  
-    justify-content: flex-end;
-}
-img{
-    display: block;
-    margin: auto;
+.google_icon{
+    text-align: center;
     margin-top: 150px;
+}
+.subtext{
+    margin-left: 230px;
+    color: rgb(62, 108, 234);
 }
 form div{
     text-align: center;
